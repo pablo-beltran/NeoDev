@@ -1,0 +1,71 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+.contenedor.contenido-header{
+    background-image: url(../img/op.jpg);
+    background-size: cover;
+    height: 100vh;
+    min-height: 60rem;
+    min-width: 60rem;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenido-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenido-header button{
+    text-decoration: none;
+    font-family: inherit;
+    padding: 1rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #ffffff;
+    background-color: black;
+    border-radius: 6px;
+    border: none;
+
+}
+
+.contenido button:hover{
+    color: #4aa4ec    ;
+}
+
+.barraNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tamanioLogo{
+    margin-left: 1rem;
+    height:5rem;
+}
+
+.navegar a{
+    text-decoration:none;
+    color: black;
+    font-size: 2rem;
+    margin-right: 2rem;
+    border-radius: 2rem ;
+}
+
+.navegar a:last-of-type{
+    margin-right: 0;
+}
+
+.navegar a:hover{
+    color: #4aa4ec    ;
+}
