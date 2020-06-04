@@ -7,11 +7,11 @@ body{
 }
 
 .contenedor.contenido-header{
-    background-image: url(../img/op.jpg);
+    background-image: url(../img/imagenBlanco.jpg);
     background-size: cover;
-    height: 100vh;
-    min-height: 60rem;
-    min-width: 60rem;
+    height: 5vh;
+    min-height: 5rem;
+    min-width: 5rem;
 }
 
 .contenido{
@@ -68,4 +68,12 @@ body{
 
 .navegar a:hover{
     color: #4aa4ec    ;
+}
+
+@media (min-width: 768px) {
+    .contenido-nosotros {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 2rem;
+    }
 }
