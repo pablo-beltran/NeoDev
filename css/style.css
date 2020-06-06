@@ -60,11 +60,6 @@ h4{
     margin-bottom: 2rem;
 }
 
-.d-block{
-    display: block!important;
-}
-
-
 /*BOTONES*/
 .d-block{
     display: block!important;
@@ -197,6 +192,23 @@ video {
     left:4rem;
 }
 
+/*SERVICIOS*/
+
+.contenedor-servicios{
+    max-width: 160rem;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.servicios{
+    flex-basis: calc(33% - 10rem);
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: red;
+}
+
 /*FOOTER*/
 * {
 	margin: 0;
@@ -326,31 +338,31 @@ footer {
 	text-align: center;
 }
 
-@media screen  and (max-width: 750px) {
+@media screen  and (max-width: 75rem) {
 	.info-main {
-		padding: 30px 100px;
+		padding: 3rem 10rem;
 	}
 
 	.footer-main .footer-columna {
-		padding: 0 10px;
+		padding: 0 1rem;
 	}
 
 	.footer-main .footer-columna h3 {
-		font-size: 28px;
+		font-size: 2.8rem;
 	}
 
 	.footer-main .footer-columna p {
-		font-size: 14px;
+		font-size: 1.4rem;
 	}
 }
 
 @media screen  and (max-width: 640px) {
 	.info-main {
-		padding: 30px 30px;
+		padding: 3rem 3rem;
 	}
 
 	.info-main h3 {
-		font-size: 30px;
+		font-size: 3rem;
 	}
 
 	.footer-main {
@@ -385,6 +397,9 @@ footer {
 .contenido-columna{
     padding: 2rem;
 }
-.contenido-columna P {
+.contenido-columna p, .contenido-columna h3 {
     margin: 1.5rem;
+}
+.contenido-columna span{
+    margin-left: 2rem;
 }
