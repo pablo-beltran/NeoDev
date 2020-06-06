@@ -122,6 +122,7 @@ h4{
     position: fixed;
     overflow: hidden;
     width: 100%;
+    z-index: 200;
 }
 
 /*Navegación*/
@@ -182,9 +183,9 @@ video {
     display: flex;
     justify-content: right;
     font-size: 4em;
-    z-index: 9999;
+    z-index: 10;
     color: white;
-    top: 8rem;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -198,14 +199,15 @@ video {
 /*SERVICIOS*/
 
 .contenedor-servicios{
-    max-width: 160rem;
+    max-width: 100%;
+    min-width: 40%;
     margin: 0;
     display: flex;
     justify-content: space-around;
 }
 
 .servicios{
-    flex-basis: calc(33% - 10rem);
+    flex-basis: calc(33.3% - 10rem);
     border-style: solid;
     border-color: black;
     border-width: 1px;
@@ -359,7 +361,7 @@ footer {
 	}
 }
 
-@media screen  and (max-width: 640px) {
+@media screen  and (max-width: 64rem) {
 	.info-main {
 		padding: 3rem 3rem;
 	}
@@ -369,17 +371,17 @@ footer {
 	}
 
 	.footer-main {
-		padding: 10px 0;
+		padding: 1rem 0;
 	}
 
 	.footer-main .footer-columna {
 		width: 100%;
 		text-align: center;
-		margin: 10px 0;
+		margin: 1rem 0;
 	}
 
 	.footer-main .footer-columna h3 {
-		margin-bottom: 5px;
+		margin-bottom: .5rem;
 	}
 
 	.footer-main .footer-columna span {
@@ -389,7 +391,7 @@ footer {
 	.main-copy-redes .footer-copy {
 		width: 100%;
 		text-align: center;
-		margin-bottom: 20px;
+		margin-bottom: 2rem;
 	}
 
 	.main-copy-redes .footer-redes {
