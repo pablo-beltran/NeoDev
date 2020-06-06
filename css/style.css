@@ -110,7 +110,7 @@ h4{
 }
 
 .contenido-header a:hover{
-    color: white    ;
+    color: white;
 }
 
 .barraNav{
@@ -119,6 +119,9 @@ h4{
     align-items: center;
     padding-top: 1rem;
     background-color: #292B2F;
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
 }
 
 /*Navegación*/
@@ -127,7 +130,7 @@ h4{
     color: white;
     text-decoration: none;
     font-size: 1.7rem;
-    margin-right: 2rem;
+    margin-right: 4rem;
 }
 
 .navegacion a:hover{
@@ -253,13 +256,13 @@ video {
 
 footer {
 	width: 100%;
-	font-family: Roboto;
+    font-family: Roboto;
 }
 
 .footer-container {
 	width: 100%;
 	background: #272727;
-	color: #fff;
+    color: #fff;
 }
 
 .footer-main {
@@ -291,7 +294,7 @@ footer {
 .footer-main .footer-columna span p {
 	display: inline-block;
 	margin-left: 5px;
-	margin-bottom: 15px;
+	margin-bottom: 5px;
 	font-family: Roboto;
 }
 
