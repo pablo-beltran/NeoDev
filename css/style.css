@@ -171,6 +171,7 @@ h4{
 }
 
 video {
+    width: 100%;
     position: inherit;
     min-width: 100%;
     overflow: hidden;
@@ -342,7 +343,12 @@ footer {
 	text-align: center;
 }
 
+.footer-redes a:hover {
+    background-color: #00C6EE;
+}
+@media screen  and (max-width: 75rem) {
 @media screen  and (max-width: 750px) {
+
 	.info-main {
 		padding: 3rem 10rem;
 	}
