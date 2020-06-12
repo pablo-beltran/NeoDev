@@ -1,3 +1,4 @@
+/*COLORES*/
 .container-cards {
     max-width: 100%;
     position: relative;
@@ -39,16 +40,6 @@
 
 
 .container-cards .card .icon .fa {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 80px;
-    transition: 0.7s;
-    color: #fff;
-}
-
-.container-cards .card .icon .fas {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -141,4 +132,27 @@ i {
 .container-cards a {
     text-decoration: none;
     color: #414141;
+}
+
+@media (max-width: 600px){
+    .container-cards{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .container-cards .card .face {
+        width: 300px;
+        height: 200px;
+        transition: 0.5s;
+        display: inline-block;
+        justify-content: center;
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+        align-items: center;
+    }
+
+
 }
