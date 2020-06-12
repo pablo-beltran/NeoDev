@@ -1,7 +1,12 @@
+:root {
+    --txt-neo-azul: #3bbfc3;
+}
+
 html{
     font-size: 62.5%;
     box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -135,7 +140,7 @@ h4{
 }
 
 .navegacion a:hover{
-    color: #37C0C4;
+    color: var(--txt-neo-azul);
 }
 
 .navegar a{
@@ -151,7 +156,7 @@ h4{
 }
 
 .navegar a:hover{
-    color: #4aa4ec;
+    color: var(--txt-neo-azul);
 }
 
 /*VIDEO*/
@@ -215,6 +220,57 @@ video {
     background-color: red;
 }
 
+/*TECNOLOGÍAS*/
+
+.section-techs {
+    max-width: 100%;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-techs .centrar, .section-techs .p {
+    color: #272727;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card-content {
+    border: 1px solid #979797;
+    background: #f8f8f8;
+    border-radius: 4px;
+    max-width: 30%;
+    min-width: 30%;
+    margin: 1rem;
+}
+
+.card-title {
+    margin: 1rem;
+    text-align: center;
+    color: var(--txt-neo-azul);
+}
+
+.card-list li{
+    list-style-type: none;
+}
+
+.card-list li:before{
+    content: "\25A0";
+    color: var(--txt-neo-azul);
+    margin-right: 1rem;
+}
+
+.card-items {
+    margin: 3rem;
+}
+
 /*FOOTER*/
 * {
 	margin: 0;
@@ -239,7 +295,7 @@ video {
 }
 
 .info-main h3 {
-	color: #00C6EE;
+	color: var(--txt-neo-azul);
 	font-size: 40px;
 	text-align: center;
 }
@@ -290,7 +346,7 @@ footer {
 
 .footer-main .footer-columna h3 {
 	font-size: 32px;
-	color: #00C6EE;
+	color: var(--txt-neo-azul);
 	margin-bottom: 20px;
 }
 
